@@ -1,0 +1,37 @@
+body {
+    background-color: #9c27b03d;
+    color:#3c0246;
+    font-family: 'Gochi Hand'
+}
+
+#hero {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: $white-color;
+    font-weight: 400;
+    color: $dark-blue-text;
+    padding: 0rem 5.6rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.hero-title {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: left;
+}
+
+
+.hero-description {
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
+    text-align: left;
+}
